@@ -11,6 +11,9 @@
     <!--CSS-->
     <link href="index.css" rel="stylesheet">
 
+    <!--Animation-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Portfolio | Prathamesh Deokar </title>
   </head>
   <body>
@@ -24,53 +27,56 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href = "#abt-me">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href = "#edu">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#pr">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#achi">Achievments</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 <!--Section 1-->
-<section class="sec1">
+<section class="sec1" id="abt-me">
 <div class="container">
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-6" data-aos="fadeInUp">
       <center>
-      <img src="itsme1.png" class="img-fluid img-responsive" style = "width: 80%; height: 80%; border-radius: 50%; border: 2px; border-color: white; border-style: solid; background-color: black;">
+      <img src="itsme1.jpg" class="img-fluid img-responsive" style = "width: 80%; height: 80%; border-radius: 50%; border: 2px; border-color: white; border-style: solid; background-color: black;">
     </center>
     </div>
-    <div class="col-sm-6" style="padding-top: 30px;">
+    <div class="col-sm-6" style="padding-top: 30px;" data-aos="zoom-in">
       <center>
       <h1 class="heading">Prathamesh Deokar</h1>
       <h4 style="color: white; text-align: right;">- Web Developer</h4>
       <h2 style="color: white; margin-top: 50px; text-align: left;">Contact Me</h2>
       <p style="margin-top: 25px; text-align: left;">
-      <a href="#">dprathamesh176@gmail.com</a><br>
-      <a href="#">+91 8830535876</a>
+      <a href="mailto:dprathamesh176@gmail.com" style="color: white;">dprathamesh176@gmail.com</a><br>
+      <a href="tel:+91 8830535876" style="color: white;">+91 8830535876</a>
       </p>
       <h2 style="color: white; margin-top: 50px; text-align: right;">Connect Me</h2>
       <p style="margin-top: 25px; text-align: right;">
-        <a href="#"><img src="github.svg" class="c_me"></a>
-      <a href="#"><img src="instagram.svg" class="c_me"></a>
-      <a href="#"><img src="facebook.svg" class="c_me"></a>
-      <a href="#"><img src="linked-in.svg" class="c_me"></a>
+        <a href="https://github.com/d-prathamesh" target = '_blank'><img src="github.svg" class="c_me"></a>
+      <a href="https://www.instagram.com/_prathamesh.deokar_/?igshid=p265l5mkfdxf" target="_blank"><img src="instagram.svg" class="c_me"></a>
+      <a href="https://www.facebook.com/profile.php?id=100008197062873" target="_blank"><img src="facebook.svg" class="c_me"></a>
+      <a href="https://www.linkedin.com/in/prathamesh-deokar" target="_blank"><img src="linked-in.svg" class="c_me"></a>
       </p>
     </center>
     </div>
   </div>
 </section>
 <!--Section 2-->
-<section class="sec2">
-  <div class="container">
-    <center><h1 id="head">Education</h1></center>
-    <div class="row" style="background-color: rgba(255, 255, 255, 0.5); margin-top: 25px;">
-      <div class="col-sm-6" style="padding-top: 25px;">
+<section class="sec2" id="edu">
+  <div class="container" >
+    <center><h1 id="head" data-aos="flip-up">Education</h1></center>
+    <div class="row" style="background-color: rgba(255, 255, 255, 0.4); margin-top: 25px;">
+      <div class="col-sm-6" style="padding-top: 25px;" data-aos="fadeout">
         <center>
           <b>
         <h1 class="head1">Academics</h1>
@@ -95,7 +101,7 @@
       </b>
       </center>
       </div>
-      <div class="col-sm-6" style="padding-top: 25px;">
+      <div class="col-sm-6" style="padding-top: 25px;" data-aos="fadeoutUp">
         <center>
           <b>
         <h1 class="head1">Training</h1>
@@ -112,7 +118,7 @@
         I learned HTML , CSS and PHP with Bootstrap framework in this course.
         </p>
         <h3 class="sec-head">
-        Mater In Copywriting With Kshitij Doval
+        Master In Copywriting With Kshitij Doval
         </h3>
         <p class="sec-para">
         Unhu School Of Execution, Online<br>
@@ -126,17 +132,17 @@
   </div>
 </section>
 <!--Section 3-->
-<section class="sec3">
+<section class="sec3" id="pr">
   <div class="container">
-    <center><h1 id="headSec">My Projects</h1></center>
+    <center><h1 id="headSec" data-aos="zoom-in">My Projects</h1></center>
     <div class="row">
-      <div class="col-sm-6" style="padding-top: 25px;">
+      <div class="col-sm-6" style="padding-top: 25px;" data-aos="fade-in">
         <center>
         <img src="web_d.jpg" class="img-fluid img-responsive" style="border: 3px; border-style: solid; border-color: white;">
       </center>
       </div>
       <div class="col-sm-6" style="padding-top: 25px;">
-        <div style="background-color: rgba(255, 255, 255, 0.3); padding-bottom: 20px;">
+        <div style="background-color: rgba(255, 255, 255, 0.3); padding-bottom: 20px;" data-aos="fadeInUp">
         <center>
           <h1 class="sec3-head">Completed Projects</h1>
           <h3 class="sec-heading">
@@ -146,11 +152,11 @@
           Oct 2020 - Dec 2020<br>
           It is a E - Commerce website which displays product information. You can order products you needed ! 
           </p>
-          <button class="btn">View Project</button>
+          <button class="btn" onclick="location.href = 'http://www.sakhigruhaudyog.in/'">View Project</button>
           <h3 class="sec-heading1">Shree Ganesh Services</h3>
           <p class="sec3-para1">Aug 2020 - Sep 2020<br>
           It is descriptive Website for the services providers</p>
-          <button class="btn">View Project</button>
+          <button class="btn" onclick="location.href = 'http://www.sgservices.in/'">View Project</button>
           <h1 class="sec3-head">Ongoing Projects</h1>
           <h3 class="sec-heading"><img src="img.svg" class="img-fluid img-responsive" width="30%"> GuruMantra</h3>
           <p style="color: white; font-size: larger;">It is a E - Course for students of std 5th to std 10th !</p>
@@ -162,30 +168,36 @@
   </div>
 </section>
 <!--Section 4-->
-<section>
+<section class="sec4" id="achi">
   <div class="container">
     <h1 style="text-align: center;padding-top: 25px; padding-bottom: 25px;">My Achievments</h1>
-    <div class="row">
+    <div class="row" style="padding: 25px;">
       <div class="col-sm-4">
         <center>
         <h2>Web Development</h2>
-        <img src="web-development.svg" class="img-fluid img-responsive">
-        <button class="btn1">View Certificate</button><br>
-        <button class="btn1">View LOR</button>
+        <img src="web-development.svg" class="img-fluid img-responsive imga">
+          <img src="WebDev-1.jpg" class="img-fluid img-responsive" id="demo" style="display:none;" onclick="document.getElementById('demo').style.display='none'">
+        <button class="btn1" onclick="document.getElementById('demo').style.display='block'">View Certificate</button><br>
+      
+          <img src="LOR-1.jpg" class="img-fluid img-responsive" id="LOR" style="display:none;" onclick="document.getElementById('LOR').style.display='none'">
+      
+        <button class="btn1" onclick="document.getElementById('LOR').style.display='block'">View LOR</button>
         </center>
       </div>
       <div class="col-sm-4">
         <center>
           <h2>Full Stack Development</h2>
-          <img src="domain.svg" class="img-fluid img-responsive">
-          <button class="btn1">View Certificate</button><br>
+          <img src="domain.svg" class="img-fluid img-responsive imga">
+          <img src="fullStack-1.jpg" class="img-fluid img-responsive" id="FS" style="display:none;" onclick="document.getElementById('FS').style.display='none'">
+          <button class="btn1" onclick="document.getElementById('FS').style.display='block'">View Certificate</button><br>
           </center>
       </div>
       <div class="col-sm-4">
         <center>
           <h2>Copywriting</h2>
-          <img src="list.svg" class="img-fluid img-responsive">
-          <button class="btn1">View Certificate</button><br>
+          <img src="list.svg" class="img-fluid img-responsive imga">
+          <img src="certificate-of-completion-for-mastering-copywriting-with-kshitij-doval-1.jpg" class="img-fluid img-responsive" id="cc" style="display:none;" onclick="document.getElementById('cc').style.display='none'">
+          <button class="btn1" onclick="document.getElementById('cc').style.display='block'">View Certificate</button><br>
           </center>
       </div>
     </div>
@@ -202,5 +214,15 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 150,
+        delay: 200, // values from 0 to 3000, with step 50ms
+        duration: 40000,
+      });
+    </script>
+
   </body>
 </html>
